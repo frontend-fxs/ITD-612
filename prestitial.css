@@ -1,0 +1,104 @@
+.fxs_prestitial-continue span,
+.fxs_prestitial-continue svg {
+    display: none
+}
+
+.fxs_prestitial-continue:after {
+    content: " »";
+}
+
+.fxs_prestitial-window-block {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: opacity 0.5s ease-out 0.1s;
+    width: 100%;
+    z-index: 200020;
+    max-width: 100%;
+    cursor: pointer
+}
+
+.fxs_prestitial-backdrop-darker {
+    background: #000
+}
+
+.fxs_prestitial-iframe {
+    border: 0;
+    height: 504px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 640px
+}
+
+.fxs_prestitial-container {
+    left: 50%;
+    margin-left: -320px;
+    margin-top: -300px;
+    min-height: 600px;
+    position: absolute;
+    text-align: left;
+    top: 50%
+}
+
+.fxs_prestitial-container .fxs_prestitial-header {
+    border-bottom: solid 1px #000;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+    position: relative;
+    width: 640px
+}
+
+.fxs_prestitial-container .fxs_prestitial-header:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    border-radius: 50px;
+    background-image: url(/media/file/sb-t-close_button.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: solid 2px #000;
+    display: none
+}
+
+.fxs_prestitial-container .fxs_prestitial-header .fxs_prestitial-logo {
+    float: left;
+    width: 270px
+}
+
+.fxs_prestitial-container .fxs_prestitial-header .fxs_prestitial-skip {
+    float: right;
+    font-family: 'Roboto Condensed', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: #ccc;
+    font-size: 25px;
+    padding-top: 3px;
+    text-align: right;
+    transition: all 0.2s;
+    width: 240px
+}
+
+.fxs_prestitial-container .adLabel {
+    font-size: 10px;
+    color: #aaa;
+    padding-top: 10px
+}
+
+.fxs_prestitial-container .fxs_prestitial-continue span svg {
+    width: 7px;
+    height: auto
+}
+
+.fxs_prestitial-container .fxs_prestitial-continue span svg path {
+    fill: #ccc
+}
